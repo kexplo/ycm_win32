@@ -11,25 +11,38 @@ about semantic completions.
 
 ## Instructions
 
-1. Setup [Vundle](https://github.com/gmarik/vundle).
+1. Setup [Vundle][vundle].
 2. Configure bundles:
 
     ```vim
     Bundle 'Valloric/YouCompleteMe'
     Bundle 'scrooloose/syntastic'
     ```
+
 3. Copy ``libclang.dll`` and ``ycm_core.pyd`` to
 ``C:\<path_to>\YouCompleteme\python``.
 
 ## Contact
 
 If you have questions, bug reports, suggestions, etc. please use the
-[issue tracker][tracker]. The latest version is available at
-https://github.com/bcbcarl/ycm_win32.
+[issue tracker][tracker].
+
+## Notices
+
+[YouCompleteMe][youcompleteme] is released under the
+[GPL v3 license][gpl].
+
+[LLVM][llvm] and [Clang][clang] is available under the [University of
+Illinois/NCSA Open Source License][ncsa].
 
 
 <!-- Link -->
-[vim]: http://www.vim.org/
 [youcompleteme]: https://github.com/Valloric/YouCompleteMe
+[vim]: http://www.vim.org/
 [ycm_user_guide]: https://github.com/Valloric/YouCompleteMe#user-guide
+[vundle]: https://github.com/gmarik/vundle
 [tracker]: https://github.com/bcbcarl/ycm_win32/issues
+[gpl]: http://www.gnu.org/copyleft/gpl.html
+[llvm]: http://llvm.org/
+[clang]: http://clang.llvm.org/
+[ncsa]: http://opensource.org/licenses/UoI-NCSA.php
