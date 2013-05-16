@@ -27,6 +27,11 @@ about semantic completions.
 If you have questions, bug reports, suggestions, etc. please use the
 [issue tracker][tracker].
 
+## License
+
+This software is released under the [GPL v3 license][gpl].
+Copyright (C) 2013 Carl X. Su.
+
 ## Notices
 
 [YouCompleteMe][youcompleteme] is released under the
